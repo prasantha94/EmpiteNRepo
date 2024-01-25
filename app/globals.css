@@ -1,0 +1,79 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html{
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+.style1{
+
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.marginss{
+  margin-left: 20%;
+}
+.marginss2{
+  margin-left: -80%;
+}
+.marginss3{
+  margin-left: -90%;
+}
+.Image .style3{
+position: absolute;
+top: 0;
+color: #000;
+}
+
+.image1{
+  background-image: url("/Mask Group 2.png");
+  background-repeat: no-repeat;
+}
+
+.btn-black {
+  @apply text-white bg-black font-mulish font-bold text-base px-7 rounded-sm+;
+}
+.image2{
+  background-image: url("/Mask Group 3.png");
+  background-repeat: no-repeat;
+}
+.image3{
+  background-image: url("/Mask Group 4.png");
+  background-repeat: no-repeat;
+}
+.image4{
+  background-image: url("/Mask Group 8.png");
+  background-repeat: no-repeat;
+
+}
+.triangle-tr {
+  @apply w-0 h-0 ml-auto;
+  border-top: 8px solid #000;
+  border-left: 8px solid transparent;
+}
+
+.slider {
+  @apply h-96 !important;
+}
+
+.mobile-nav {
+  @apply bg-lightGray absolute p-4 top-16 right-14 mt-4 shadow-md z-10 h-fit rounded-sm+ gap-5 flex flex-col items-center min-w-52;
+}
+
